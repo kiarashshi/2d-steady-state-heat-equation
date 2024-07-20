@@ -2,14 +2,17 @@
 
 
 ## Introduction
-This repository provides a solution to the transient 2D heat equation using Physics-Informed Neural Networks (PINNs). PINNs leverage the power of deep learning while respecting the underlying physical laws described by partial differential equations (PDEs). This approach allows for the solution of complex PDEs without the need for traditional discretization methods.
+This repository provides a solution to the steady state 2D heat equation using Physics-Informed Neural Networks (PINNs). PINNs leverage the power of deep learning while respecting the underlying physical laws described by partial differential equations (PDEs). This approach allows for the solution of complex PDEs without the need for traditional discretization methods.
 
 
 ## Governing Equation
-<p>$$ \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right)$$ </p> 
+
+<p>$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$</p>
 where:
 
+
 **u(x, y)  is the temperature distribution**
+
 
 **x  and  y  are the coordinates**
 
@@ -21,25 +24,16 @@ where:
 
 ## Boundary Conditions
 
-bottom wall = T(x,0) = 273K
+bottom wall = T(x,0) = 0
 
-top wall = T(x,1) = 400k
+top wall = T(x,1) = 1
 
-left wall = T(0,y) = 300k
+left wall = T(0,y) = 0
 
-right wall = T(1,y) = 300k
-
-
-**when normalized:**
+right wall = T(1,y) = 0
 
 
-bottom wall = T(x,0) = 273/400 = 0.6825
 
-top wall = T(x,1) = 400/400 = 1
-
-left wall = T(0,y) = 300/400 = 0.75
-
-right wall = T(1,y) = 300/400 = 0.75
 
 ## Results
 **Loss function:**
