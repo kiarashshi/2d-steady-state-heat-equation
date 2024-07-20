@@ -44,6 +44,16 @@ right wall = T(1,y) = 300/400 = 0.75
 ## Results
 **Loss function:**
 
+![Screenshot (657)](https://github.com/user-attachments/assets/e2240596-9b10-4047-9808-b3aab8e83965)
+
+![Screenshot (658)](https://github.com/user-attachments/assets/a3568d3d-e2cc-46da-a2d6-4e024005ca7a)
+
+
+![Screenshot (659)](https://github.com/user-attachments/assets/0e123da9-ba0d-4732-9f4c-c8fff9f7361b)
+
+
+![Screenshot (660)](https://github.com/user-attachments/assets/fb2a0753-c3be-4ef8-9676-599b6564106a)
+
 
   
 
